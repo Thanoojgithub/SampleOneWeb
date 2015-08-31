@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Cutomer Loing</title>
+<!-- Latest compiled and minified CSS -->
+<link th:href='${"static/css/bootstrap.min.css"}' rel="stylesheet" />
+
+</head>
+<body>
+<div class="container" >
+  <div class="col-md-4"/>
+    
+    <div class="col-md-4">
+      <section class="form-signin">
+        <form method="GET" action="authlogin" role="login">
+        <div class="col-md-4"/>
+      	 <div class="col-md-4">	<img th:src='${"static/css/hibu_logo_tm_header.jpg"}' class="img-responsive" alt="" /> </div>
+      	 	<div class="col-md-4"/>
+          <input type="email" id="email" name="email" placeholder="Email" class="form-control input-lg"/>
+          
+          <input type="password" name="password" class="form-control input-lg" id="password" placeholder="Password"/>
+          
+          <button id="signinId" class="btn btn-lg btn-primary btn-block">Sign in</button>
+          <div class="col-md-4"/>
+            <div class="col-md-4"><a href="newuser">Sign Up</a></div>
+         <div class="col-md-4"/>
+          
+        </form>
+      </section>  
+      </div>
+      <div class="col-md-4"/>
+      
+  
+      
+  
+  
+</div>
+	
+	<script th:src='${"static/js/jquery-2.1.3.min.js"}'></script>
+
+</body>
+</html>
